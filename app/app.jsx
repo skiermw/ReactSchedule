@@ -5,9 +5,10 @@ var Main = require('Main');
 var Schedule = require('Schedule');
 var Welcome = require('Welcome');
 var TimeHome = require('TimeHome');
+var ScheduleAccordion = require('ScheduleAccordion');
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+require('style!css!foundation-sites/dist/css/foundation.min.css')
 $(document).foundation();
 
 // App css
